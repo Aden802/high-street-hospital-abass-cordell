@@ -4,7 +4,7 @@ const Employees = require("./Employees")
 
         constructor(){
         super();
-        this.salary = 40000;
+        this.salary = 90000;
         this.specialty = this.getSpecialty();
         this.drawBlood = true
         }

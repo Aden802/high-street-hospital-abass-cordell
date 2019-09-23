@@ -1,10 +1,11 @@
 const Janitor = require("./Janitor");
+const underTest = new Janitor;
 
-describe ("Janitor", () => {
-    const underTest = new Janitor();
-
-
-        expect(testJanitor.getSweeping()).toEqual(false);
-
+describe ("getSweeping", () => {
+    test("does get sweeping return this.sweeping", ()=> {
+        expect(underTest.getSweeping()).toEqual(this.sweeping());
     })
+        
+    
+})
  
