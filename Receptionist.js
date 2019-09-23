@@ -2,9 +2,9 @@ class receptionist{
 
     constructor(){
 
-        this.receptionsitName = "Lisa"
-        this.idNumber = 777
-        this.
+        this.name = name
+        this.idNumber = 0;
+        this.salary = 45000;
     }
 
 }
